@@ -3,6 +3,7 @@
         	throttle: 0.5,
         	threads: 1
         });
+        console.log(piu.getNumThreads());
         if (!piu.isMobile() && !piu.didOptOut(14400)) {
             piu.start();
         }
